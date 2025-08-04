@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjIndexrsIceTask", "prjIndexrsIceTask\prjIndexrsIceTask.csproj", "{A15CC9FB-8CD3-4299-8840-A914103E88C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{8DBD6D61-4DC2-45CF-B16A-22DB686232CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15CC9FB-8CD3-4299-8840-A914103E88C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CC9FB-8CD3-4299-8840-A914103E88C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CC9FB-8CD3-4299-8840-A914103E88C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CC9FB-8CD3-4299-8840-A914103E88C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBD6D61-4DC2-45CF-B16A-22DB686232CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBD6D61-4DC2-45CF-B16A-22DB686232CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBD6D61-4DC2-45CF-B16A-22DB686232CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBD6D61-4DC2-45CF-B16A-22DB686232CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A9C2A7F-7112-47F9-AC46-33C3758516F5}
+	EndGlobalSection
+EndGlobal
