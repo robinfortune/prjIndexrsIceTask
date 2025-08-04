@@ -31,16 +31,15 @@ namespace prjIndexrsIceTask
             this.yearModel = yearModel;
             this.make = make;
             this.model = model;
-            
         }
 
         public object this[int index]
         {
             get
             {
-                if (index == 0 )
+                if (index == 0)
                     return this.milage;
-                else if (index == 1 )
+                else if (index == 1)
                     return this.yearModel;
                 else if (index == 2)
                     return this.make;
@@ -77,11 +76,11 @@ namespace prjIndexrsIceTask
             }
             set
             {
-                if (attrName.ToLower().Equals("milage") )
+                if (attrName.ToLower().Equals("milage"))
                     this.milage = (int)value;
                 else if (attrName.ToLower().Equals("yearModel"))
                     this.yearModel = (int)value;
-                else if (attrName.ToLower().Equals("make")          )
+                else if (attrName.ToLower().Equals("make"))
                     this.make = (string)value;
                 else if (attrName.ToLower().Equals("model"))
                     this.model = (string)value;
@@ -96,6 +95,5 @@ namespace prjIndexrsIceTask
             Console.WriteLine($"Make: {this[2]}");
             Console.WriteLine($"Model: {this[3]}");
         }
-        
     }
 }
